@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API Java</title>
-</head>
-<body style="font-family: Arial, sans-serif; background-color: rgb(142, 160, 112); text-align: center; margin-top: 50px;">
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        background-color: rgb(142, 160, 112);
+        text-align: center;
+      }
+      .content {
+        flex: 1 0 auto; /* Faz o conteúdo principal crescer e ocupar o espaço disponível */
+        padding-top: 50px;
+      }
+      h1 {
+        color: blue;
+      }
+      footer, p {
+        flex-shrink: 0; /* Impede que o rodapé encolha */
 
-</br>
-<h1 style="text-align: center; color: blue;">Bem-vindo à API Java!</h1>
-
-<p>Esta é uma API simples desenvolvida em Java usando Spring Boot.</p>
-    
-</body>
+        padding: 30px;
+        color: rgb(3, 3, 3);
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Bem-vindo à API Java!</h1>
+      <h3>Esta é uma API simples desenvolvida em Java usando Spring Boot.</h3>
+    </div>
+    <footer>
+      <p>&copy; 2025 API Java - Pedro Zeferino daSilva</p>
+    </footer>
+  </body>
 </html>
