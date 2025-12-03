@@ -4,12 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JavapiApplication {
+public class ApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavapiApplication.class, args);
+		SpringApplication.run(ApiApplication.class, args);
 
-		System.out.println("Aplicação iniciada com sucesso!");
+		System.out.println("API iniciada com sucesso!");
 	}
-
 }
