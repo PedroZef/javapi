@@ -10,12 +10,13 @@
         height: 100%;
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
       }
       body {
         display: flex;
         flex-direction: column;
         font-family: Arial, sans-serif;
-        background-color: rgb(142, 160, 112);
+        background-color: rgb(90, 95, 83);
         text-align: center;
       }
       .content {
@@ -25,7 +26,8 @@
       h1 {
         color: blue;
       }
-      footer, p {
+      footer,
+      p {
         flex-shrink: 0; /* Impede que o rodapé encolha */
 
         padding: 30px;
